@@ -1,0 +1,26 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.home-img {
+  width: 150px;
+}
+.home-heading {
+  font-size: 47px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 56px;
+  color: #6d396b;
+}
+@media screen and (max-width: 768px) {
+  .home-img {
+    width: 110px;
+  }
+  .home-heading {
+    font-size: 26px;
+    font-weight: 500;
+  }
+}
